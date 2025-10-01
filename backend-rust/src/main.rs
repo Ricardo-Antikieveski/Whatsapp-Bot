@@ -15,6 +15,10 @@ struct BotResponse{
 #[post("/sendMessage")]
 async fn receive_message(body: web::Json<MessageRequest>) -> impl Responder
 {
+    //if body.chat_id.contains("@g.us"){
+    //  return HttpResponse::NoContent();
+    //}
+
     let receive_text = body.message.trim();
     println!("Nova mensagem de {}: {}", body.chat_id, receive_text);
 
