@@ -45,7 +45,7 @@ O bot **ignora grupos e broadcasts**, focando em mensagens privadas, e é modula
 * [x] Envia mensagens privadas para o servidor Rust
 * [x] Servidor Rust processa mensagens e gera respostas em JSON
 * [x] Node.js envia a resposta de volta ao WhatsApp
-
+* [x] Verifica se úsuario mandou mensagem e da um block bot por 5 minutos
 ---
 
 ## 🔜 Próximos Passos 🚀
