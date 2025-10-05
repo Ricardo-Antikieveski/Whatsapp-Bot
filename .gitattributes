@@ -1,3 +1,5 @@
 *.rs linguist-language=Rust
 *.js linguist-language=JavaScript
-*.html linguist-language=HTML
+
+*.json linguist-detectable=false
+*.lock linguist-vendored=true
