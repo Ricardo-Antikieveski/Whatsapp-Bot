@@ -1,5 +1,10 @@
+# Linguagens principais
 *.rs linguist-language=Rust
 *.js linguist-language=JavaScript
 
+# Forçar a pasta backend-rust a ser contada como Rust
+backend-rust/** linguist-language=Rust
+
+# Ignorar arquivos não relevantes
 *.json linguist-detectable=false
 *.lock linguist-vendored=true
