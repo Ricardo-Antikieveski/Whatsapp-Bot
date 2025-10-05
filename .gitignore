@@ -1,6 +1,6 @@
 node_modules/
-.wwwebjs_auth/
-.wwwebjs_cache/
+.wwebjs_auth/
+.wwebjs_cache/
 target/
 .env
 .idea/

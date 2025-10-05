@@ -10,25 +10,22 @@ struct MessageRequest{
 #[derive(Serialize)]
 struct BotResponse{
     response: String,
+    responseisbot: bool
 }
 
 #[post("/sendMessage")]
 async fn receive_message(body: web::Json<MessageRequest>) -> impl Responder
 {
-    //if body.chat_id.contains("@g.us"){
-    //  return HttpResponse::NoContent();
-    //}
-
     let receive_text = body.message.trim();
     println!("Nova mensagem de {}: {}", body.chat_id, receive_text);
 
     let response = if receive_text.to_lowercase().contains("pelicula"){
-        "Temos película sim! R$ 20,00".to_string()
+        "[Resposta Automática] Temos película sim! R$ 20,00".to_string()
     }else{
         "Desculpa, não entendi sua mensagem 😅".to_string()
     };
 
-    HttpResponse::Ok().json(BotResponse{response})
+    HttpResponse::Ok().json(BotResponse{response, responseisbot: true})
 }
 
 #[actix_web::main]
