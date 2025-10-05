@@ -5,3 +5,4 @@
 
 *.json linguist-detectable=false
 *.lock linguist-vendored=true
+*.html linguist-detectable=false
