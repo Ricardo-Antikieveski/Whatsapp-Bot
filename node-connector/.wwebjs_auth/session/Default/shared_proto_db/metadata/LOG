@@ -1,4 +1,0 @@
-2025/10/04-16:01:02.700 3a98 Creating DB C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\shared_proto_db\metadata since it was missing.
-2025/10/04-16:01:02.706 3a98 Reusing MANIFEST C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\shared_proto_db\metadata/MANIFEST-000001
-2025/10/04-16:01:02.714 3a98 Recovering log #3
-2025/10/04-16:01:02.715 3a98 Reusing old log C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\shared_proto_db\metadata/000003.log 

@@ -1,4 +1,0 @@
-2025/10/04-16:01:02.664 3ec8 Creating DB C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
-2025/10/04-16:01:02.671 3ec8 Reusing MANIFEST C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/04-16:01:02.673 3ec8 Recovering log #3
-2025/10/04-16:01:02.674 3ec8 Reusing old log C:\Users\antik\Documents\Projetos\Whatsapp-Bot\node-connector\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
